@@ -1,1 +1,5 @@
 Répertoire /interfaces
+A figurer:
+Composant.h
+Composant.lib
+

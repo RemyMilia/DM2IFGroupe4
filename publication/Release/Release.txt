@@ -1,2 +1,3 @@
 Répertoire /Release
-v0
+A figurer:
+Composant.dll
