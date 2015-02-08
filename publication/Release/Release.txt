@@ -1,3 +1,0 @@
-Répertoire /Release
-A figurer:
-Composant.dll
