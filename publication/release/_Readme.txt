@@ -1,0 +1,1 @@
+Après avoir incrémenté le numéro de version (cf. production du DLL), compilé sous Visual C++ 2010, commit le résultat dans ce répertoire. Signaler aux autres groupes la mise à disposition de la nouvelle version.
