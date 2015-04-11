@@ -12,4 +12,8 @@ COMPOSANT6_INTERFACE char * getComposant6Version();
 
 COMPOSANT6_INTERFACE vector<double> getChemin();
 
+COMPOSANT6_INTERFACE vector<double> getN();
+
+COMPOSANT6_INTERFACE vector<double> getSigma();
+
 #endif

@@ -2,7 +2,9 @@
 #define WINDOWS_LEAN_AND_MEAN
 #include <Windows.h>
 #include <iostream>
+#include <vector>
 
+using std::vector;
 
 int main()
 {
@@ -21,4 +23,17 @@ int main()
 	Sleep(3000);
 }
 
-bool has
+bool has505Values(vector<double> S)
+{
+	return S.size() == 505 ? true : false;
+}
+
+bool hasNonNegativeValues(vector<double> S)
+{
+	for (unsigned i=0; i<S.size(); i++)
+	{
+		if (S[i] < 0.0)
+			return true;
+	}
+	return false;
+}
