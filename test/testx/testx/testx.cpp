@@ -10,15 +10,15 @@ int main()
 {
 	double result;
 
-	result=composant3(2,5);
+	result=composant6(2,5);
 
-	std::cout << "Resultat appel composant0 " << result << std::endl;
+	std::cout << "Resultat appel composant6 " << result << std::endl;
 
-	char * versionComposant=getComposant3Version();
+	char * versionComposant=getComposant6Version();
 
 	std::cout << "Version composant :" << versionComposant << std::endl;
 
-	std::cout << "Nombre aleatoire :" << uniformRandom() << std::endl;
+	// TODO
 
 	Sleep(3000);
 }
