@@ -20,3 +20,5 @@ int main()
 
 	Sleep(3000);
 }
+
+bool has
