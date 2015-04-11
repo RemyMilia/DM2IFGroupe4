@@ -8,7 +8,7 @@
 	#define COMPOSANT6_INTERFACE __declspec(dllimport)
 #endif
 
-COMPOSANT6_INTERFACE char * getComposant0Version();
+COMPOSANT6_INTERFACE char * getComposant6Version();
 
 COMPOSANT6_INTERFACE vector<double> getChemin();
 
