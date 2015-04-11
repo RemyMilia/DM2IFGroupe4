@@ -1,4 +1,4 @@
-#include "composant0.h"
+#include "..\..\..\developpement\Composant0\interfaces\Composant0.h"
 #define WINDOWS_LEAN_AND_MEAN
 #include <Windows.h>
 #include <iostream>
