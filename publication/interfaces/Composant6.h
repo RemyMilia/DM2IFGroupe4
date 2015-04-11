@@ -2,7 +2,7 @@
 #ifndef COMPOSANT6_H
 #define COMPOSANT6_H
 
-#ifdef COMPOSANT0_EXPORTS
+#ifdef COMPOSANT6_EXPORTS
 	#define COMPOSANT6_INTERFACE __declspec(dllexport)
 #else
 	#define COMPOSANT6_INTERFACE __declspec(dllimport)
