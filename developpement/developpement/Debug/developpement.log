@@ -1,17 +1,18 @@
-﻿La génération a démarré 07/04/2015 19:59:11.
-     1>Projet "C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\developpement\developpement.vcxproj" sur le nœud 2 (rebuild cible(s)).
-     1>_PrepareForClean:
-         Suppression du fichier "Debug\developpement.lastbuildstate".
-       InitializeBuildStatus:
+﻿La génération a démarré 11/04/2015 14:24:22.
+     1>Projet "C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\developpement\developpement.vcxproj" sur le nœud 2 (build cible(s)).
+     1>InitializeBuildStatus:
          Mise à jour de l'horodatage "Debug\developpement.unsuccessfulbuild".
+       ClCompile:
+         Toutes les sorties sont à jour.
        ManifestResourceCompile:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\developpement.dll.embed.manifest.res" Debug\developpement_manifest.rc 
+         Toutes les sorties sont à jour.
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\Debug\developpement.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\developpement.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\Debug\developpement.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\Debug\developpement.lib" /MACHINE:X86 /DLL Debug\developpement.dll.embed.manifest.res
-     1>LINK : error LNK2001: symbole externe non résolu __DllMainCRTStartup@12
-     1>C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\Debug\developpement.dll : fatal error LNK1120: 1 externes non résolus
-     1>Génération du projet "C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\developpement\developpement.vcxproj" terminée (rebuild cible(s)) -- ÉCHEC.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\Debug\developpement.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\/Debug Composant3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\developpement.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\Debug\developpement.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\Debug\developpement.lib" /MACHINE:X86 Debug\developpement.exe.embed.manifest.res
+         Debug\appelC6.obj
+     1>MSVCRTD.lib(crtexew.obj) : error LNK2019: symbole externe non résolu _WinMain@16 référencé dans la fonction ___tmainCRTStartup
+     1>C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\Debug\developpement.exe : fatal error LNK1120: 1 externes non résolus
+     1>Génération du projet "C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\developpement\developpement.vcxproj" terminée (build cible(s)) -- ÉCHEC.
 
 ÉCHEC de la build.
 
-Temps écoulé 00:00:00.18
+Temps écoulé 00:00:00.16

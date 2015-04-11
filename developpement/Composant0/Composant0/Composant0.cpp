@@ -1,4 +1,4 @@
-#include "Composant0.h"
+#include "..\interfaces\Composant0.h"
 #include "Composant0Version.h"
 #include <math.h>
 

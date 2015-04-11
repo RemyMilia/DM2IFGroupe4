@@ -2,16 +2,20 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "developpement", "developpement\developpement.vcxproj", "{A4B4E3D4-A6CB-4BFC-A5B6-9C51F88638AF}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Composant3", "Composant3\Composant3.vcxproj", "{520E6515-6F83-44EC-AD63-95F1635FDCAB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{83802C85-EFF5-4D2F-904F-4BA1BD9631E0} = {83802C85-EFF5-4D2F-904F-4BA1BD9631E0}
+		{6A558FCD-C119-4C46-939A-825A63AD246B} = {6A558FCD-C119-4C46-939A-825A63AD246B}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Composant0", "Composant0\Composant0\Composant0.vcxproj", "{6A558FCD-C119-4C46-939A-825A63AD246B}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testx", "..\test\testx\testx\testx.vcxproj", "{3D720B0D-53AB-4F9A-85C6-1836239147EA}"
 	ProjectSection(ProjectDependencies) = postProject
-		{520E6515-6F83-44EC-AD63-95F1635FDCAB} = {520E6515-6F83-44EC-AD63-95F1635FDCAB}
+		{83802C85-EFF5-4D2F-904F-4BA1BD9631E0} = {83802C85-EFF5-4D2F-904F-4BA1BD9631E0}
 		{6A558FCD-C119-4C46-939A-825A63AD246B} = {6A558FCD-C119-4C46-939A-825A63AD246B}
 	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Composant3", "Composant3\Composant3\Composant3.vcxproj", "{83802C85-EFF5-4D2F-904F-4BA1BD9631E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +27,6 @@ Global
 		{A4B4E3D4-A6CB-4BFC-A5B6-9C51F88638AF}.Debug|Win32.Build.0 = Debug|Win32
 		{A4B4E3D4-A6CB-4BFC-A5B6-9C51F88638AF}.Release|Win32.ActiveCfg = Release|Win32
 		{A4B4E3D4-A6CB-4BFC-A5B6-9C51F88638AF}.Release|Win32.Build.0 = Release|Win32
-		{520E6515-6F83-44EC-AD63-95F1635FDCAB}.Debug|Win32.ActiveCfg = Debug|Win32
-		{520E6515-6F83-44EC-AD63-95F1635FDCAB}.Debug|Win32.Build.0 = Debug|Win32
-		{520E6515-6F83-44EC-AD63-95F1635FDCAB}.Release|Win32.ActiveCfg = Release|Win32
-		{520E6515-6F83-44EC-AD63-95F1635FDCAB}.Release|Win32.Build.0 = Release|Win32
 		{6A558FCD-C119-4C46-939A-825A63AD246B}.Debug|Win32.ActiveCfg = Debug|Win32
 		{6A558FCD-C119-4C46-939A-825A63AD246B}.Debug|Win32.Build.0 = Debug|Win32
 		{6A558FCD-C119-4C46-939A-825A63AD246B}.Release|Win32.ActiveCfg = Release|Win32
@@ -35,6 +35,10 @@ Global
 		{3D720B0D-53AB-4F9A-85C6-1836239147EA}.Debug|Win32.Build.0 = Debug|Win32
 		{3D720B0D-53AB-4F9A-85C6-1836239147EA}.Release|Win32.ActiveCfg = Release|Win32
 		{3D720B0D-53AB-4F9A-85C6-1836239147EA}.Release|Win32.Build.0 = Release|Win32
+		{83802C85-EFF5-4D2F-904F-4BA1BD9631E0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{83802C85-EFF5-4D2F-904F-4BA1BD9631E0}.Debug|Win32.Build.0 = Debug|Win32
+		{83802C85-EFF5-4D2F-904F-4BA1BD9631E0}.Release|Win32.ActiveCfg = Release|Win32
+		{83802C85-EFF5-4D2F-904F-4BA1BD9631E0}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
