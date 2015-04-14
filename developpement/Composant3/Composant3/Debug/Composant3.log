@@ -1,9 +1,9 @@
-﻿La génération a démarré 14/04/2015 18:06:51.
+﻿La génération a démarré 14/04/2015 18:16:46.
      1>Projet "C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\Composant3\Composant3\Composant3.vcxproj" sur le nœud 2 (rebuild cible(s)).
      1>_PrepareForClean:
          Suppression du fichier "Debug\Composant3.lastbuildstate".
        InitializeBuildStatus:
-         Mise à jour de l'horodatage "Debug\Composant3.unsuccessfulbuild".
+         Création de "Debug\Composant3.unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
        ClCompile:
          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\/Composant0/interfaces /ZI /nologo /W3 /WX- /Od /Oy- /D COMPOSANT3_EXPORTS /D WIN32 /D _DEBUG /D _CONSOLE /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Composant3.cpp
          Composant3.cpp
@@ -35,4 +35,4 @@
 
 La génération a réussi.
 
-Temps écoulé 00:00:01.40
+Temps écoulé 00:00:01.19

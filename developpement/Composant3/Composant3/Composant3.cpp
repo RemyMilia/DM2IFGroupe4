@@ -27,12 +27,12 @@ void initialize()
 }
 
 std::vector<float> normalRandom(int taille)
-{
-	double u1=uniformRandom();
-	double u2=uniformRandom();
+{	
 	std::vector<float> N;
 	for(int i=0;i<taille;i++)
 	{
+		double u1=uniformRandom();
+		double u2=uniformRandom();
 		N.push_back(cos(8.*atan(1.)*u2)*sqrt(-2.*log(u1)));
 	}
 	return N;
