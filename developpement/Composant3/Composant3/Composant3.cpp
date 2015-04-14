@@ -26,9 +26,14 @@ void initialize()
 	srand(std::time(0));
 }
 
-double normalRandom()
+std::vector<float> normalRandom(int taille)
 {
 	double u1=uniformRandom();
 	double u2=uniformRandom();
-	return cos(8.*atan(1.)*u2)*sqrt(-2.*log(u1));
+	std::vector<float> N;
+	for(int i=0;i<taille;i++)
+	{
+		N.push_back(cos(8.*atan(1.)*u2)*sqrt(-2.*log(u1)));
+	}
+	return N;
 }

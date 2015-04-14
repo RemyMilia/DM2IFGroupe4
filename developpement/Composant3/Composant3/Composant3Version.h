@@ -2,7 +2,7 @@
 
 
 #define ComposantVersion_1 1
-#define ComposantVersion_2 0
+#define ComposantVersion_2 1
 #define ComposantVersion_3 0
 #define ComposantVersion_4 0
 
