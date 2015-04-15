@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testx", "..\test\testx\test
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Composant3", "Composant3\Composant3\Composant3.vcxproj", "{83802C85-EFF5-4D2F-904F-4BA1BD9631E0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Composant6", "Composant6\Composant6\Composant6.vcxproj", "{C16C7064-5D31-4626-9144-4F391F4A13DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -39,6 +41,10 @@ Global
 		{83802C85-EFF5-4D2F-904F-4BA1BD9631E0}.Debug|Win32.Build.0 = Debug|Win32
 		{83802C85-EFF5-4D2F-904F-4BA1BD9631E0}.Release|Win32.ActiveCfg = Release|Win32
 		{83802C85-EFF5-4D2F-904F-4BA1BD9631E0}.Release|Win32.Build.0 = Release|Win32
+		{C16C7064-5D31-4626-9144-4F391F4A13DE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C16C7064-5D31-4626-9144-4F391F4A13DE}.Debug|Win32.Build.0 = Debug|Win32
+		{C16C7064-5D31-4626-9144-4F391F4A13DE}.Release|Win32.ActiveCfg = Release|Win32
+		{C16C7064-5D31-4626-9144-4F391F4A13DE}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

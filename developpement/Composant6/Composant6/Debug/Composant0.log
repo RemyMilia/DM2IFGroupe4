@@ -1,0 +1,33 @@
+﻿La génération a démarré 11/04/2015 14:17:37.
+     1>Projet "C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\Composant0\Composant0\Composant0.vcxproj" sur le nœud 2 (build cible(s)).
+     1>InitializeBuildStatus:
+         Mise à jour de l'horodatage "Debug\Composant0.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\/interfaces /ZI /nologo /W3 /WX- /Od /Oy- /D COMPOSANT0_EXPORTS /D WIN32 /D _DEBUG /D _CONSOLE /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Composant0.cpp
+         Composant0.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\Composant0.res" Composant0.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Composant0.dll.embed.manifest.res" Debug\Composant0_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\Debug\Composant0.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Composant0.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\Debug\Composant0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\Debug\Composant0.lib" /MACHINE:X86 /DLL Debug\Composant0.res
+         Debug\Composant0.dll.embed.manifest.res
+         Debug\Composant0.obj
+            Création de la bibliothèque C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\Debug\Composant0.lib et de l'objet C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\Debug\Composant0.exp
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Composant0.dll.embed.manifest" /manifest Debug\Composant0.dll.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Composant0.dll.embed.manifest.res" Debug\Composant0_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\Debug\Composant0.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Composant0.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\Debug\Composant0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\Debug\Composant0.lib" /MACHINE:X86 /DLL Debug\Composant0.res
+         Debug\Composant0.dll.embed.manifest.res
+         Debug\Composant0.obj
+            Création de la bibliothèque C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\Debug\Composant0.lib et de l'objet C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\Debug\Composant0.exp
+         Composant0.vcxproj -> C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\Debug\Composant0.dll
+       FinalizeBuildStatus:
+         Suppression du fichier "Debug\Composant0.unsuccessfulbuild".
+         Mise à jour de l'horodatage "Debug\Composant0.lastbuildstate".
+     1>Génération du projet "C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\Composant0\Composant0\Composant0.vcxproj" terminée (build cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:00.86
