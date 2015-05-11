@@ -23,7 +23,7 @@ int main()
 	try
 	{
 		std::cout << "Test Spot de depart = 100 : ";
-		if ( hasCorrectInitialSpot(getChemin(504)) )
+		if ( hasCorrectInitialSpot(getChemin(504,100)) )
 		{
 			std::cout << "OK ! " << std::endl;
 		} else 
@@ -31,7 +31,7 @@ int main()
 			std::cout << "KO ! " << std::endl;
 		}
 		std::cout << "Test 505 valeurs : ";
-		if ( has505Values(getChemin(504)) )
+		if ( has505Values(getChemin(504,100)) )
 		{
 			std::cout << "OK ! " << std::endl;
 		} else 
@@ -39,7 +39,7 @@ int main()
 			std::cout << "KO ! " << std::endl;
 		}
 		std::cout << "Test valeurs non negatives : ";
-		if ( hasNonNegativeValues(getChemin(504)) )
+		if ( hasNonNegativeValues(getChemin(504,100)) )
 		{
 			std::cout << "OK ! " << std::endl;
 		} else 
@@ -47,9 +47,9 @@ int main()
 			std::cout << "KO ! " << std::endl;
 		}
 		std::cout << "Test de la bonne construction du chemin : ";
-		vector<double> N = getN();
-		vector<double> sigma = getSigma();
-		vector<double> Scalc = getChemin(504);
+		vector<double> N = getN(504);
+		vector<double> sigma = getSigma(504);
+		vector<double> Scalc = getChemin(504,100);
 
 		if ( correctPath(Scalc,N,sigma) )
 		{
@@ -93,7 +93,7 @@ bool correctPath(vector<double> S, vector<double> N, vector<double> sigma)
 
 	Scalc.at(0)=100;
 
-	for(int i=1;i<=504;i++)
+	for(int i=1;i<N.size();i++)
 	{
 		Scalc.at(i) = Scalc.at(i-1) * (1. + (sigma.at(i-1) / sqrt(252.)) * N.at(i-1) );
 		if (Scalc.at(i) != S.at(i))

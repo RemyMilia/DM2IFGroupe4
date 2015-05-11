@@ -1,10 +1,11 @@
-﻿La génération a démarré 15/04/2015 11:36:11.
+﻿La génération a démarré 11/05/2015 19:13:21.
      1>Projet "C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\test\testx\testx\testx.vcxproj" sur le nœud 2 (build cible(s)).
      1>InitializeBuildStatus:
          Mise à jour de l'horodatage "Debug\testx.unsuccessfulbuild".
        ClCompile:
          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\/../../developpement/Composant0/Composant0/interfaces /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt testx.cpp
          testx.cpp
+     1>c:\users\laurent\documents\dauphine\projetcomposants\dm2ifgroupe4\test\testx\testx\testx.cpp(96): warning C4018: '<' : incompatibilité signed/unsigned
        ManifestResourceCompile:
          Toutes les sorties sont à jour.
        Link:
@@ -23,4 +24,4 @@
 
 La génération a réussi.
 
-Temps écoulé 00:00:01.67
+Temps écoulé 00:00:01.50

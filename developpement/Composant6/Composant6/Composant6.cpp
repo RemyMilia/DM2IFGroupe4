@@ -9,10 +9,10 @@ char * getComposant6Version()
 }
 
 // Debut : fonctions bidon
-std::vector<double> getN()
+std::vector<double> getN(int jours)
 {
-	std::vector<double> N(504);
-	for(int i=0;i<504;i++)
+	std::vector<double> N(jours);
+	for(int i=0;i<jours;i++)
 	{
 		if(i%2 == 0)
 		{
@@ -25,10 +25,10 @@ std::vector<double> getN()
 	return N;
 }
 
-std::vector<double> getSigma()
+std::vector<double> getSigma(int jours)
 {
-	std::vector<double> sigma(504);
-	for(int i=0;i<504;i++)
+	std::vector<double> sigma(jours);
+	for(int i=0;i<jours;i++)
 	{
 		if(i%2 == 0)
 		{
@@ -41,12 +41,14 @@ std::vector<double> getSigma()
 	return sigma;
 }
 
-std::vector<double> getChemin(int taille)
+std::vector<double> getChemin(int taille, double spot)
 {
-	std::vector<double> S(505);
-	std::vector<double> N(504);
-	std::vector<double> sigma(504);
-	S.at(0) = 100.0;
+	std::vector<double> S(taille + 1);
+	/*
+	std::vector<double> N(taille);
+	std::vector<double> sigma(taille);
+	*/
+	S.at(0) = spot;
 	for(int i=1;i<=taille;i++)
 	{
 		if(i%2==1)
