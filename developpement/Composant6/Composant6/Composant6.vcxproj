@@ -14,6 +14,7 @@
     <ProjectGuid>{C16C7064-5D31-4626-9144-4F391F4A13DE}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>Composant0</RootNamespace>
+    <ProjectName>Composant6</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -75,12 +76,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Composant6.cpp">
-      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)/interfaces</AdditionalIncludeDirectories>
-    </ClCompile>
+    <ClCompile Include="Composant6.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\interfaces\Composant6.h" />
+    <ClInclude Include="Composant3.h" />
     <ClInclude Include="Composant6Version.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>

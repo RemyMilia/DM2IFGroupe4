@@ -18,6 +18,6 @@ COMPOSANT3_INTERFACE double uniformRandom();
 // permet d'initialiser la graine du GNA
 COMPOSANT3_INTERFACE void initialize();
 // renvoie une valeur suivant une loi normale (box-muller) ; prend en parametre la taille
-COMPOSANT3_INTERFACE std::vector<float> normalRandom(int);
+COMPOSANT3_INTERFACE std::vector<double> normalRandom(int);
 
 #endif

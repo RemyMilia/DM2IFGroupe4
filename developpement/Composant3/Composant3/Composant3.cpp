@@ -26,9 +26,9 @@ void initialize()
 	srand(std::time(0));
 }
 
-std::vector<float> normalRandom(int taille)
+std::vector<double> normalRandom(int taille)
 {	
-	std::vector<float> N;
+	std::vector<double> N;
 	for(int i=0;i<taille;i++)
 	{
 		double u1=uniformRandom();

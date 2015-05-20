@@ -24,6 +24,9 @@
     <ClInclude Include="Composant6Version.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Composant3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Composant6.rc">
