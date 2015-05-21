@@ -1,0 +1,26 @@
+﻿La génération a démarré 21/05/2015 16:21:15.
+     1>Projet "C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\Composant6\Composant6\Composant6.vcxproj" sur le nœud 2 (rebuild cible(s)).
+     1>_PrepareForClean:
+         Suppression du fichier "x64\Debug\Composant6.lastbuildstate".
+       InitializeBuildStatus:
+         Mise à jour de l'horodatage "x64\Debug\Composant6.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I..\interfaces /Zi /nologo /W1 /WX- /O2 /D COMPOSANT6_EXPORTS /D _WINDLL /D _WINDLL /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt Composant6.cpp
+         Composant6.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"x64\Debug\Composant6.res" Composant6.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\x64\Debug\Composant6.dll" /NOLOGO /LIBPATH:C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\\x64\Debug Composant3.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\Composant6.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\x64\Debug\Composant6.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\x64\Debug\Composant6.lib" /MACHINE:X64 /DLL x64\Debug\Composant6.res
+         x64\Debug\Composant6.obj
+            Création de la bibliothèque C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\x64\Debug\Composant6.lib et de l'objet C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\x64\Debug\Composant6.exp
+         Composant6.vcxproj -> C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\x64\Debug\Composant6.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\x64\Debug\Composant6.dll;#2" /manifest x64\Debug\Composant6.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Suppression du fichier "x64\Debug\Composant6.unsuccessfulbuild".
+         Mise à jour de l'horodatage "x64\Debug\Composant6.lastbuildstate".
+     1>Génération du projet "C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\Composant6\Composant6\Composant6.vcxproj" terminée (rebuild cible(s)).
+
+La génération a réussi.
+
+Temps écoulé 00:00:00.60

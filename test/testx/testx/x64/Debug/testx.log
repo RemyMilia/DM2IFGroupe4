@@ -1,0 +1,15 @@
+﻿La génération a démarré 21/05/2015 16:17:26.
+     1>Projet "C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\test\testx\testx\testx.vcxproj" sur le nœud 2 (rebuild cible(s)).
+     1>InitializeBuildStatus:
+         Création de "x64\Debug\testx.unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I..\interfaces /Zi /nologo /W1 /WX- /O2 /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc100.pdb" /Gd /TP /errorReport:prompt testx.cpp
+         testx.cpp
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\x64\Debug\testx.exe" /NOLOGO Composant6.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\testx.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\x64\Debug\testx.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\x64\Debug\testx.lib" /MACHINE:X64 x64\Debug\testx.obj
+     1>LINK : fatal error LNK1181: impossible d'ouvrir le fichier en entrée 'Composant6.lib'
+     1>Génération du projet "C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\test\testx\testx\testx.vcxproj" terminée (rebuild cible(s)) -- ÉCHEC.
+
+ÉCHEC de la build.
+
+Temps écoulé 00:00:00.78
