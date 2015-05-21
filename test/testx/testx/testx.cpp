@@ -4,6 +4,7 @@
 #include <iostream>
 #include <vector>
 #include <math.h>
+#include <cmath>
 #include "..\interfaces\Composant6.h"
 
 using std::vector;
@@ -47,9 +48,9 @@ int main()
 			std::cout << "KO ! " << std::endl;
 		}
 		std::cout << "Test de la bonne construction du chemin : ";
+		vector<double> Scalc = getChemin(504,100);
 		vector<double> N = getN(504);
 		vector<double> sigma = getSigma(504);
-		vector<double> Scalc = getChemin(504,100);
 
 		if ( correctPath(Scalc,N,sigma) )
 		{
@@ -96,7 +97,7 @@ bool correctPath(vector<double> S, vector<double> N, vector<double> sigma)
 	for(int i=1;i<N.size();i++)
 	{
 		Scalc.at(i) = Scalc.at(i-1) * (1. + (sigma.at(i-1) / sqrt(252.)) * N.at(i-1) );
-		if (Scalc.at(i) != S.at(i))
+		if ( (1./100.)*floor(Scalc.at(i) * 100) != (1./100.)*floor(S.at(i) * 100) )
 		{
 			std::cout << "i : " << i << std::endl;
 			std::cout << "Scalc : " << Scalc.at(i) << std::endl;

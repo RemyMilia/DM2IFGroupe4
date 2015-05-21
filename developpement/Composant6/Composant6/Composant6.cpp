@@ -8,9 +8,8 @@
 #include <cstdlib>
 #include <ctime>
 
-
 int T;
-std::vector<double> sigma(T) ;
+std::vector<double> *sigma ;
 std::vector<double> N(T);
 
 /*
@@ -45,14 +44,15 @@ std::vector<double> getN(int taille)
 // obtenir la volatilite locale en t
 std::vector<double> getSigma(int)
 {
-	return sigma;
+	return *sigma;
 }
 
 
 std::vector<double> getChemin(int jours, double spot)
 
 {
-	std::vector<double> v(505);
+	std::vector<double> v(jours+1);
+	sigma = new std::vector<double>(jours);
 	T = jours;
 	N = normalRandom(jours);
 
@@ -60,8 +60,8 @@ std::vector<double> getChemin(int jours, double spot)
 
 	for (int i = 1; i<=jours; i++){
 		double x = v.at(i - 1);
-		sigma.at(i)= getLocalVol(v.at(i-1),T);
-		v.at(i) = x*(1 + sigma[i]*N[i] / sqrt(252.0));
+		sigma->at(i-1)= getLocalVol( (v.at(i-1)/(double)100) ,T);
+		v.at(i) = x*(1 + (*sigma)[i-1]*N[i-1] / sqrt(252.0));
 	}
 	return v;
 }

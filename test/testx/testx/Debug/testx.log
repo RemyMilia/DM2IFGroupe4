@@ -1,22 +1,27 @@
-﻿La génération a démarré 20/05/2015 15:47:14.
+﻿La génération a démarré 21/05/2015 13:28:33.
      1>Projet "C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\test\testx\testx\testx.vcxproj" sur le nœud 2 (build cible(s)).
      1>InitializeBuildStatus:
          Mise à jour de l'horodatage "Debug\testx.unsuccessfulbuild".
        ClCompile:
          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\/../../developpement/Composant0/Composant0/interfaces /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt testx.cpp
-         Ignoré... (aucune modification pertinente détectée)
          testx.cpp
+     1>c:\users\laurent\documents\dauphine\projetcomposants\dm2ifgroupe4\test\testx\testx\testx.cpp(97): warning C4018: '<' : incompatibilité signed/unsigned
        ManifestResourceCompile:
          Toutes les sorties sont à jour.
        Link:
          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\Debug\testx.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\\..\test\testx\interfaces Composant6.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\testx.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\Debug\testx.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\Debug\testx.lib" /MACHINE:X86 Debug\testx.exe.embed.manifest.res
          Debug\testx.obj
-     1>testx.obj : error LNK2019: symbole externe non résolu "__declspec(dllimport) class std::vector<double,class std::allocator<double> > __cdecl getSigma(int)" (__imp_?getSigma@@YA?AV?$vector@NV?$allocator@N@std@@@std@@H@Z) référencé dans la fonction _main
-     1>testx.obj : error LNK2019: symbole externe non résolu "__declspec(dllimport) class std::vector<double,class std::allocator<double> > __cdecl getN(int)" (__imp_?getN@@YA?AV?$vector@NV?$allocator@N@std@@@std@@H@Z) référencé dans la fonction _main
-     1>testx.obj : error LNK2019: symbole externe non résolu "__declspec(dllimport) class std::vector<double,class std::allocator<double> > __cdecl getChemin(int,double)" (__imp_?getChemin@@YA?AV?$vector@NV?$allocator@N@std@@@std@@HN@Z) référencé dans la fonction _main
-     1>C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\Debug\testx.exe : fatal error LNK1120: 3 externes non résolus
-     1>Génération du projet "C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\test\testx\testx\testx.vcxproj" terminée (build cible(s)) -- ÉCHEC.
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\testx.exe.embed.manifest" /manifest Debug\testx.exe.intermediate.manifest
+         Toutes les sorties sont à jour.
+       LinkEmbedManifest:
+         Toutes les sorties sont à jour.
+         testx.vcxproj -> C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\developpement\Debug\testx.exe
+       FinalizeBuildStatus:
+         Suppression du fichier "Debug\testx.unsuccessfulbuild".
+         Mise à jour de l'horodatage "Debug\testx.lastbuildstate".
+     1>Génération du projet "C:\Users\Laurent\Documents\dauphine\projetcomposants\DM2IFGroupe4\test\testx\testx\testx.vcxproj" terminée (build cible(s)).
 
-ÉCHEC de la build.
+La génération a réussi.
 
-Temps écoulé 00:00:00.60
+Temps écoulé 00:00:01.56
