@@ -22,7 +22,7 @@ double composant6(double p1, double p2)
 char * getComposant6Version()
 {
 
-	return "Composant 6 version " ;
+	return "Composant 6 version " COMPOSANT_VERSION_STR;
 }
 
 
@@ -30,8 +30,7 @@ char * getComposant6Version()
 double getLocalVol(double strike, double maturity)
 
 {
-
-	return 3.0;
+	return 0.3;
 }
 
 
@@ -51,10 +50,19 @@ std::vector<double> getSigma(int)
 std::vector<double> getChemin(int jours, double spot)
 
 {
+	if (spot <0 )
+	{
+		throw "valeur neg : 0";
+	}
+
 	std::vector<double> v(jours+1);
 	sigma = new std::vector<double>(jours);
 	T = jours;
 	N = normalRandom(jours);
+	if( N.size() != jours )
+	{ 
+		throw "unvalid size : " + N.size();
+	}
 
 	v.at(0) = spot;
 
@@ -62,6 +70,15 @@ std::vector<double> getChemin(int jours, double spot)
 		double x = v.at(i - 1);
 		sigma->at(i-1)= getLocalVol( (v.at(i-1)/(double)100) ,T);
 		v.at(i) = x*(1 + (*sigma)[i-1]*N[i-1] / sqrt(252.0));
+		if (v.at(i-1) < 0)
+		{
+			throw "valeur_neg : " + (i-1);
+		}
+	}
+
+	if (v.at(jours) < 0)
+	{
+		throw "valeur_neg : " + jours;
 	}
 	return v;
 }

@@ -17,9 +17,9 @@ bool correctPath (vector<double> S, vector<double> N, vector<double> sigma);
 int main()
 {
 
-	//char * versionComposant=getComposant6Version();
+	char * versionComposant=getComposant6Version();
 
-	//std::cout << "Version composant :" << versionComposant << std::endl;
+	std::cout << "Version composant :" << versionComposant << std::endl;
 
 	try
 	{
@@ -61,7 +61,9 @@ int main()
 		}
 	}
 	catch ( const char * Msg ) 
-	{ 
+	{
+		std::cerr << std::endl;
+		std::cerr << "erreur : ";
 		std::cerr << Msg; 
 	}
 
@@ -105,6 +107,5 @@ bool correctPath(vector<double> S, vector<double> N, vector<double> sigma)
 			return false;
 		}
 	}
-
 	return true;
 }
